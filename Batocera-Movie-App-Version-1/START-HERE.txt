@@ -1,0 +1,22 @@
+BATOCERA MOVIE PLAYER APP VERSION 1 RELEASE KIT
+=================================================
+
+START HERE:
+  1. Open Installation-Guide.
+  2. Read Batocera-Movie-Player-App-Version-1-Installation-Guide.pdf.
+  3. Install Batocera-Movie-App-Version-1.zip from the Application folder.
+
+PRINTING:
+  Printable-Cards contains duplex 2 x 3 inch control cards.
+  Print at 100% / Actual Size and flip on the long edge.
+
+ONE-UP PRINTING:
+  Control-Cards-Individual-JPG contains 640 x 1024 pixel, 300 DPI front
+  and back JPG files for every V1 Zaparoo control.
+
+REFERENCE:
+  Reference-Sheets contains 8.5 x 11 inch, 300 DPI JPG guides.
+
+Batocera Movie Player created by Joshua R. Taylor
+JRT3D.com - 2026
+Developed with assistance from ChatGPT

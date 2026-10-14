@@ -1,0 +1,55 @@
+BATOCERA MOVIE PLAYER V1 - ZAPAROO CONTROL COMMANDS
+
+01  PLAY / PAUSE
+    **control:toggle_pause
+
+02  BACK 10 SECONDS
+    **control:rewind
+
+03  FORWARD 10 SECONDS
+    **control:fast_forward
+
+04  BACK 60 SECONDS
+    **control:back_60
+
+05  FORWARD 60 SECONDS
+    **control:forward_60
+
+06  VOLUME UP
+    **control:volume_up
+
+07  VOLUME DOWN
+    **control:volume_down
+
+08  MUTE / UNMUTE
+    **control:mute
+
+09  SUBTITLES ON / OFF
+    **control:subtitles
+
+10  NEXT SUBTITLE
+    **control:next_subtitle
+
+11  STOP / EXIT
+    **control:stop
+
+12  NEXT CHAPTER
+    **control:next_chapter
+
+13  PREVIOUS CHAPTER
+    **control:previous_chapter
+
+14  RESTART MOVIE
+    **control:restart
+
+15  FIT / FILL SCREEN
+    **control:fit_screen
+
+16  ZOOM PICTURE
+    **control:zoom
+
+17  MOVIE INFO
+    **control:movie_info
+
+18  PROGRESS / TIME
+    **control:progress
