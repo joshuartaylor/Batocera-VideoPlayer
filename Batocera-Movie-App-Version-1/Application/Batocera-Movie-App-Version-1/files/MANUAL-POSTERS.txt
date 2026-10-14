@@ -1,0 +1,38 @@
+MANUAL MOVIE POSTERS — NO ACCOUNT REQUIRED
+===========================================
+
+Give the artwork the same base filename as the movie.
+
+Example:
+  The Goonies.mp4
+  The Goonies.jpg
+
+Also accepted:
+  The Goonies-poster.jpg
+  The Goonies-thumbnail.png
+  The Goonies.webp
+  The Goonies.bmp
+
+Supported artwork: JPG, JPEG, PNG, WEBP and BMP.
+
+Put the artwork in any ONE of these locations:
+  1. Beside the movie file
+  2. /userdata/roms/movies/images
+  3. /userdata/roms/movies/thumbnails
+  4. /userdata/roms/movies/custom-posters
+
+Then run:
+  Game Settings > Update Game Lists
+
+The movie index rebuilds automatically after a movie or poster changes.
+Normal movie and poster changes are detected automatically. Choose
+GAME SETTINGS > UPDATE GAME LISTS to reload Batocera. The Ports entry named
+Repair Movie Library - Only If Needed remains only as a manual fallback.
+
+Movie Player automatically refreshes Zaparoo's Movie index after a movie is
+added, renamed or removed and cleans the obsolete path. Wait for indexing to
+finish before searching again. A metadata scrape is only needed for changed
+poster or description information; use Force/Full Rescrape for cached artwork.
+
+Your manual artwork always overrides automatic artwork.
+If no manual image exists, free no-account Apple movie artwork is attempted.

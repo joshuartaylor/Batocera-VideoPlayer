@@ -1,0 +1,79 @@
+ZAPAROO MOVIE REMOTE CARDS
+===========================
+
+In the Zaparoo phone app, write the command shown below onto its matching card.
+The card sends the same keyboard command used by Batocera Movie Player.
+
+PLAY / PAUSE
+**control:toggle_pause
+
+BACK 10 SECONDS
+**control:rewind
+
+FORWARD 10 SECONDS
+**control:fast_forward
+
+BACK 60 SECONDS
+**control:back_60
+
+FORWARD 60 SECONDS
+**control:forward_60
+
+VOLUME UP
+**control:volume_up
+
+VOLUME DOWN
+**control:volume_down
+
+SHOW MOVIE INFORMATION
+**control:movie_info
+
+RESTART MOVIE
+**control:restart
+
+SUBTITLES ON / OFF
+**control:subtitles
+
+NEXT SUBTITLE LANGUAGE
+**control:next_subtitle
+
+NEXT AUDIO TRACK / LANGUAGE
+**control:next_audio
+
+NEXT CHAPTER
+**control:next_chapter
+
+PREVIOUS CHAPTER
+**control:previous_chapter
+
+MUTE / UNMUTE
+**control:mute
+
+FIT / FILL SCREEN
+**control:fit_screen
+
+SHOW PROGRESS AND REMAINING TIME
+**control:progress
+
+STOP MOVIE / RETURN TO BATOCERA
+**control:stop
+
+MOVIE CARD - RESUME WHERE YOU STOPPED (TITLE)
+@Movie/My Movie?launcher=BatoceraMoviePlayer
+
+MOVIE CARD - RESUME WHERE YOU STOPPED (EXACT FILE PATH)
+**launch:/userdata/roms/movies/My Movie.mp4?system=Movie&launcher=BatoceraMoviePlayer
+
+MOVIE CARD - ALWAYS START FROM BEGINNING
+Start the movie normally, then scan RESTART MOVIE (**input.keyboard:{r}).
+
+EMERGENCY RESET / RETURN TO WAITING SCREEN
+**launch:/userdata/system/batocera-movie-player/reset-player.sh
+
+HOW IT WORKS
+1. Scan a movie card. Zaparoo launches that file in Batocera Movie Player.
+2. Scan any remote-control card while the movie is playing.
+3. Zaparoo sends its keyboard command to the player.
+4. Scan another movie card to switch movies immediately.
+
+The control cards are reusable. One Play/Pause card controls every movie.

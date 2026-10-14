@@ -1,0 +1,28 @@
+[[launchers.custom]]
+id = "BatoceraMoviePlayer"
+system = "Movie"
+media_dirs = ["/userdata/roms/movies"]
+file_exts = [".mkv", ".mp4", ".m4v", ".avi", ".mov", ".mpeg", ".mpg", ".ts", ".m2ts", ".webm", ".wmv", ".flv", ".ogv", ".vob", ".3gp"]
+execute = "/usr/bin/python3 /userdata/system/batocera-movie-player/movie-client.py \"[[media_path]]\""
+lifecycle = "background"
+
+[launchers.custom.controls]
+toggle_pause = "**input.keyboard:{space}"
+stop = "**input.keyboard:{esc}"
+fast_forward = "**input.keyboard:{right}"
+rewind = "**input.keyboard:{left}"
+back_60 = "**input.keyboard:{pageup}"
+forward_60 = "**input.keyboard:{pagedown}"
+volume_up = "**input.keyboard:{up}"
+volume_down = "**input.keyboard:{down}"
+movie_info = "**input.keyboard:{i}"
+restart = "**input.keyboard:{r}"
+subtitles = "**input.keyboard:{s}"
+next_subtitle = "**input.keyboard:{n}"
+next_audio = "**input.keyboard:{a}"
+next_chapter = "**input.keyboard:{c}"
+previous_chapter = "**input.keyboard:{shift+c}"
+mute = "**input.keyboard:{m}"
+fit_screen = "**input.keyboard:{f}"
+zoom = "**input.keyboard:{z}"
+progress = "**input.keyboard:{o}"

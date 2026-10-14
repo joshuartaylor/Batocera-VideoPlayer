@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10182b"/>
+      <stop offset="1" stop-color="#242f52"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect x="485" y="170" width="950" height="690" rx="52" fill="#ffffff" opacity="0.07" stroke="#79d6ff" stroke-width="5"/>
+  <rect x="785" y="245" width="350" height="220" rx="28" fill="#ffffff" stroke="#79d6ff" stroke-width="12"/>
+  <circle cx="960" cy="355" r="68" fill="#35c878"/>
+  <path d="M935 312 L935 398 L1005 355 Z" fill="#ffffff"/>
+  <path d="M760 510 Q960 630 1160 510" fill="none" stroke="#79d6ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="760" cy="510" r="15" fill="#79d6ff"/>
+  <circle cx="1160" cy="510" r="15" fill="#79d6ff"/>
+  <text x="960" y="700" text-anchor="middle" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="82" font-weight="bold">SCAN A MOVIE CARD</text>
+  <text x="960" y="780" text-anchor="middle" fill="#bfeaff" font-family="DejaVu Sans, sans-serif" font-size="38">Hold the card near the reader to begin</text>
+  <text x="960" y="970" text-anchor="middle" fill="#91a4c7" font-family="DejaVu Sans, sans-serif" font-size="28">BATOCERA MOVIE PLAYER</text>
+</svg>
